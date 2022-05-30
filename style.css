@@ -49,11 +49,13 @@
   padding: 0px;
 }
 
-.main__taskslist__item, .main__header {
+.main__taskslist__item,
+.main__header {
   list-style: none;
 }
 
-.input, .main__button {
+.input, 
+.main__button {
   outline: none;
 }
 
@@ -114,18 +116,21 @@
   vertical-align: middle;
 }
 
-.main__taskslist__item > .input[type="checkbox"] {
+.main__taskslist__item > 
+.input[type="checkbox"] {
   margin: 0 10px;
 }
 
-.main__taskslist__item > .main__label {
+.main__taskslist__item >
+.main__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.main__taskslist__item > .input[type="text"] {
+.main__taskslist__item >
+.input[type="text"] {
   width: 226px;
 }
 
@@ -140,21 +145,25 @@
 }
 
 /* Completed */
-#main__completed_tasks .main__label {
+#main__completed_tasks
+.main__label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.main__taskslist__item .input[type=text] {
+.main__taskslist__item
+.input[type=text] {
   display: none;
 }
 
-.main__taskslist__item.editMode .input[type=text] {
+.main__taskslist__item.editMode
+.input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.main__taskslist__item.editMode .main__label {
+.main__taskslist__item.editMode
+.main__label {
   display: none;
 }
