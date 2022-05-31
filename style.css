@@ -157,13 +157,13 @@
   display: none;
 }
 
-.main__taskslist__item.editMode
+.main__taskslist__item.editing
 .input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.main__taskslist__item.editMode
+.main__taskslist__item.editing
 .main__label {
   display: none;
 }
